@@ -1,0 +1,85 @@
+#allobjs:=$(patsubst %.cpp,%.o,$(wildcard TMPLib/*.cpp))
+files:=$(foreach dir,.,$(wildcard $(dir)/*.cpp))
+clearfiles:=$(subst $(files),$(notdir $(files)),$(files))
+objs:=$(patsubst %.cpp,%.o,$(clearfiles))
+depends:=$(addprefix $(BUILDDIR)/,$(patsubst %.o,%.d,$(objs)))
+depend_objs:=$(addprefix $(BUILDDIR)/,$(objs))
+
+all_files:=$(foreach dir,$(SRCDIRS),$(wildcard $(dir)/*.cpp))
+all_clearfiles:=$(subst $(all_files),$(notdir $(all_files)),$(all_files))
+all_objs:=$(patsubst %.cpp,%.o,$(all_clearfiles))
+all_depends:=$(addprefix $(BUILDDIR)/,$(patsubst %.o,%.d,$(all_objs)))
+
+#OBJS := $(addprefix $(BUILDDIR)/, main.o)
+#OBJS := $(patsubst %.cpp,%.o,$(wildcard *.cpp)) 
+OBJS=$(objs)
+VPATH=$(BUILDDIR)
+
+#%.o:%.cpp
+#	@echo "Compile" $< " for " $@;
+#	$(CC) -c $(CPPFLAGS) $< -o $(BUILDDIR)/$@
+
+-include $(OBJS:.o=.d)
+#-include $(addprefix $(BUILDDIR)/,$(OBJS:.o=.d))
+#-include $(depends)
+#-include $(OBJS:.o=.d)
+
+compile: $(OBJS)
+
+#main.o main.d : main.cpp TestClass.h
+
+%.d:%.cpp
+	@set -e; rm -f $@.$$$$;echo process $@;\
+	$(CC) -MM $(CPPFLAGS) $< > $@.$$$$; \
+	sed 's,\($*\)\.o[ :]*,\1.o $@ : ,g' < $@.$$$$ > $(BUILDDIR)/$@;\
+	rm -f $@.$$$$
+
+#$(all_objs): %.o:%.cpp
+#	$(CC) -c $(CPPFLAGS) $< -o $(BUILDDIR)/$@
+
+#$(OBJS): %.o:%.cpp
+%.o:%.cpp
+	@echo "Compile" $< " for " $@;
+	$(CC) $(CPPFLAGS) -c $< -o $(BUILDDIR)/$@
+
+full:
+	@for subdir in $(SRCDIRS) ;do \
+	echo "Processing subdir:" $$subdir ; \
+	if test $$subdir = "."; then\
+		echo "ignore " $$subdir; \
+	else \
+	rm -f $$subdir/makefile.inc ;\
+	rm -f $$subdir/makefile.core ;\
+	cp makefile.inc $$subdir/makefile.inc ;\
+	cp makefile.core $$subdir/makefile.core ;\
+	cp makefile.kgi $$subdir/makefile.kgi ;\
+	make -C $$subdir -f makefile.kgi BUILDDIR=$(CRTDIR)/$(BUILDDIR) compile ;\
+	rm $$subdir/makefile.inc ;\
+	rm $$subdir/makefile.core ;\
+	rm $$subdir/makefile.kgi ;\
+	fi; \
+	done
+
+staticlib:compile full
+	ar rcs $(BUILDDIR)/lib$(SLIBNAME).a $(addprefix $(BUILDDIR)/,$(all_objs))
+	ranlib $(BUILDDIR)/lib$(SLIBNAME).a
+
+build:compile full
+	$(CC) -o $(BUILDDIR)/$(EXE) $(addprefix $(BUILDDIR)/,$(all_objs))
+
+Test2:
+	@echo "OBJS= " $(OBJS)
+	@echo $(OBJS:.o=.d)
+	@echo "files= " $(files)
+	@echo "all_objs= " $(all_objs)
+	@echo "depends" $(depends)
+
+#%.d:%.cpp
+#	@echo test $@
+
+.PHONY: clean
+clean:
+	@rm -f *.d*
+	@rm -f *.o
+	@rm -f Test
+	@rm -f $(BUILDDIR)/*
