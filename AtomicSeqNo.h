@@ -8,9 +8,10 @@
 #ifndef UTILITY_ATOMICSEQNO_H
 #define	UTILITY_ATOMICSEQNO_H
 
+#include <CommonDef.h>
 #include <mutex>
 
-namespace KGI_TW_Der_Utility{   
+BEGIN_NAMESPACE(KGI_TW_Der_Utility)   
 
 /*
  * 2014/08/11 Justin
@@ -35,7 +36,7 @@ private:
 };
 
 
-}
+END_NAMESPACE(KGI_TW_Der_Utility)
 
 #endif	/* UTILITY_ATOMICSEQNO_H */
 

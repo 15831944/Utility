@@ -19,7 +19,7 @@
 #include <queue>
 #include <string>
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 /// \brief 記憶體區塊配置管理器
 /// 可以自行配置一大塊記憶體，並依設定切成數小塊給其它人來配置及使用<br>

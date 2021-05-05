@@ -11,7 +11,7 @@
 
 #include <sys/time.h>
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 POSIXManualResetEvent::POSIXManualResetEvent() {
     pthread_mutex_init( &m_MutexEvent, NULL );

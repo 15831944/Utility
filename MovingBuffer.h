@@ -10,7 +10,7 @@
 
 #include "MacroRecipe.h"
 
-namespace KGI_TW_Der_Utility{   
+namespace ProgLab{ namespace Utility{   
 
 class MovingBuffer {
 public:

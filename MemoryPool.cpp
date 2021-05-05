@@ -15,7 +15,7 @@
 
 #include "MemoryPool.h"
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 MemoryPool::MemoryPool() {
 }

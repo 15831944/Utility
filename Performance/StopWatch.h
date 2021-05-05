@@ -18,7 +18,7 @@
 #include "PerformanceUtil.h"
 #endif
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 /// StopWath performance measuring tool
 ///

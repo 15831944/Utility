@@ -13,7 +13,7 @@
 
 #include "ScheduleNotifier.h"
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 //
 //ScheduleNotifier::ScheduleNotifier() {
 //}

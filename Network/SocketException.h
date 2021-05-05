@@ -11,7 +11,7 @@
 #include <string>
 #include <stdexcept>
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 class SocketException : public std::exception {
 public:

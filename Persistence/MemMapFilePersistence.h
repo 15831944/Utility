@@ -25,7 +25,7 @@
 #ifndef UTILITY_MEMMAPFILEPERSISTENCE_H
 #define	UTILITY_MEMMAPFILEPERSISTENCE_H
 
-namespace KGI_TW_Der_Utility{ 
+namespace ProgLab{ namespace Utility{ 
 
 #ifdef _OS_LINUX_
 /// \brief 使用MemoryMap file的方式來寫入Log

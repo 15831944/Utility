@@ -13,7 +13,7 @@
 #include <cstdio>
 #include <memory>
 
-namespace KGI_TW_Der_Utility{ 
+namespace ProgLab{ namespace Utility{ 
 
     /// \brief 標準輸出的Persistence類別
 class ConsolePersistence : public AbstractFilePersistence{

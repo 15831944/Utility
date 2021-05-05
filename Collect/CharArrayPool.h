@@ -8,7 +8,7 @@
 #ifndef UTILITY_CHARARRAYPOOL_H
 #define	UTILITY_CHARARRAYPOOL_H
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 class CharArrayPool {
 public:

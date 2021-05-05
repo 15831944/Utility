@@ -17,7 +17,7 @@
 #include <stdlib.h>
 #include <cstdio>
 
-namespace KGI_TW_Der_Utility{ 
+namespace ProgLab{ namespace Utility{ 
 
 #ifdef _OS_LINUX_
 int AbstractFilePersistence::GetLastIndex( const std::string& filePath ){

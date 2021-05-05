@@ -21,7 +21,7 @@
 #endif
 #include <errno.h>
 
-namespace KGI_TW_Der_Utility{   
+namespace ProgLab{ namespace Utility{   
 
 StringUtil::StringUtil():m_pData(NULL),m_Length(100) {
 }

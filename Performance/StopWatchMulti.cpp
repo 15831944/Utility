@@ -14,7 +14,7 @@
 #include "StopWatchMulti.h"
 #include <stdexcept>
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 StopWatchMulti::StopWatchMulti( int count ) : m_Total(count), m_pTimePoints(NULL) {
     if( count == 0 ){

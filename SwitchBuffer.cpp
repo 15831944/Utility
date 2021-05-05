@@ -10,7 +10,7 @@
 #include <thread>
 #include <string.h>
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
     
 #ifdef _SWITCHBUFFER_EX_
 

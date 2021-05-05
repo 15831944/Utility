@@ -16,7 +16,7 @@
 #include "../StringTemplateUtil.h"
 #include "../MT/CurrentThread.h"
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 ILogData::ILogData() {
     ThreadID_ = CurrentThread::GetThreadID();

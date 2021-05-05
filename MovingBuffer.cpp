@@ -10,7 +10,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-namespace KGI_TW_Der_Utility{   
+namespace ProgLab{ namespace Utility{   
 
 MovingBuffer::MovingBuffer( int totalSize ) {
     m_TotalSize = totalSize;

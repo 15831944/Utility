@@ -21,7 +21,7 @@
 #endif
 #include <string>
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 /// \brief 利用Memory Map File方式記錄的序號產生器，可利用Memory Map File的自動保存功能
 class MMapSeqGenerator{

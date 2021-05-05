@@ -21,7 +21,7 @@
 #include "../StringTemplateUtil.h"
 #include "../MT/CurrentThread.h"
 
-namespace KGI_TW_Der_Utility{      
+namespace ProgLab{ namespace Utility{      
 
 /// LogSystem 
 /// Singleton instance of LogSystem to be used in every process.

@@ -10,7 +10,7 @@
 
 #include <cstddef>
 
-namespace KGI_TW_Der_Utility{   
+namespace ProgLab{ namespace Utility{   
 
     /// \brief 實作 FNV-1 的 hash 函式
     ///

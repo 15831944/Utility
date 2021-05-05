@@ -7,7 +7,7 @@
 
 #include "RefCounter.h"
 
-namespace KGI_TW_Der_Utility{  
+namespace ProgLab{ namespace Utility{  
 
 //RefCounter::RefCounter() {
 //}

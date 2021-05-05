@@ -15,7 +15,7 @@
 #include <unistd.h>
 #include <memory.h>
 
-namespace KGI_TW_Der_Utility{ 
+namespace ProgLab{ namespace Utility{ 
 
 MemMapFilePersistence::MemMapFilePersistence(int fileSize) : m_FileID(0),m_FileSize(fileSize),m_pMMapFile(reinterpret_cast<char*>(MAP_FAILED)),m_OrgFileSize(0){
 }

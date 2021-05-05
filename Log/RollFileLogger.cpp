@@ -19,7 +19,7 @@
 #include <stdarg.h>
 #include "../StringUtil.h"
 
-namespace KGI_TW_Der_Utility{          
+namespace ProgLab{ namespace Utility{          
 
 RollFileLogger::RollFileLogger(  const char *pFilenamePattern,int maxSizeMB, const char *pLoggerName ) : 
     _BaseFileLogType_( std::string(pFilenamePattern), std::string("") ),m_MaxSizeMB(maxSizeMB)

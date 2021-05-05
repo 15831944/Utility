@@ -10,7 +10,7 @@
 #include <string.h>
 #include <memory>
 
-namespace KGI_TW_Der_Utility{  
+namespace ProgLab{ namespace Utility{  
     
 AsyncFileLogger::AsyncFileLogger( const char *pFilenamePattern, const char *pLoggerName ) : AsyncRollFileLogger(pFilenamePattern,0,pLoggerName){    
 }

@@ -10,7 +10,7 @@
 
 #include <string>
 
-namespace KGI_TW_Der_Utility{ 
+namespace ProgLab{ namespace Utility{ 
 
 /// \brief 檔案讀寫的基底類別
 class AbstractFilePersistence{

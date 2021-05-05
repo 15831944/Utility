@@ -20,7 +20,7 @@
 //#define SOCK_OPT_VALUE(x) reinterpret_cast<char*>( x )
 //#endif
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 SocketUDPClient::SocketUDPClient() {
 }

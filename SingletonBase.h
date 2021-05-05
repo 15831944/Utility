@@ -8,7 +8,7 @@
 #ifndef UTILITY_SINGLETONBASE_H
 #define	UTILITY_SINGLETONBASE_H
 
-namespace KGI_TW_Der_Utility{   
+namespace ProgLab{ namespace Utility{   
     
 /// \brief 讓Class變成是Singleton模式的基底類別
 template<typename T>

@@ -18,7 +18,7 @@
 
 #include "StringTemplateUtil.h"
 
-namespace KGI_TW_Der_Utility{     
+namespace ProgLab{ namespace Utility{     
 
 class ExecuteResult {
 public:

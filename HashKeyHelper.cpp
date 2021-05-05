@@ -7,7 +7,7 @@
 
 #include "HashKeyHelper.h"
 
-namespace KGI_TW_Der_Utility{ 
+namespace ProgLab{ namespace Utility{ 
 
 //HashKeyHelper::HashKeyHelper() {
 //}

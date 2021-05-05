@@ -7,7 +7,7 @@
 
 #include "CountdownEvent.h"
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 CountdownEvent::CountdownEvent(int initCount ):m_Count(initCount) {   
 }

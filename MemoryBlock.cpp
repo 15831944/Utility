@@ -12,7 +12,7 @@
 #include <assert.h>
 #include <stdio.h>
 
-namespace KGI_TW_Der_Utility{  
+namespace ProgLab{ namespace Utility{  
 
 MemoryBlock::MemoryBlock( int size ):m_Size(size),m_pBuffer(NULL){
     if( m_Size > 0 )

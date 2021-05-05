@@ -17,7 +17,7 @@
 #include "SocketBase.h"
 #include "SocketException.h"
 
-namespace KGI_TW_Der_Utility{   
+namespace ProgLab{ namespace Utility{   
 
 SocketChannel::SocketChannel(int socketID ):m_WriteTryCounts(3){
     m_SocketID = socketID;    

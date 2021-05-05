@@ -7,7 +7,7 @@
 
 #include "StopWatchChrono.h"
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 StopWatchChrono::StopWatchChrono() {
 }

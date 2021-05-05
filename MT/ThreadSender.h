@@ -11,7 +11,7 @@
 #include <thread>
 #include "../Collect/BlockingQueue.h"
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 /// \brief use number of threads to send data to one receiver
 template<typename T>

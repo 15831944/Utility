@@ -15,7 +15,7 @@
 #include <mutex>
 #endif
 
-namespace KGI_TW_Der_Utility{  
+namespace ProgLab{ namespace Utility{  
 
 class RefCounter {
 public:

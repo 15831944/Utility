@@ -10,7 +10,7 @@
 
 #include <stdarg.h>
 
-namespace KGI_TW_Der_Utility{  
+namespace ProgLab{ namespace Utility{  
 
 class MemoryBlock{
 public:

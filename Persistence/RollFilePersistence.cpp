@@ -14,7 +14,7 @@
 #include <cstdio>
 #include "../StringTemplateUtil.h"
 
-namespace KGI_TW_Der_Utility{ 
+namespace ProgLab{ namespace Utility{ 
 
 
 RollFilePersistence::RollFilePersistence(int rollSize) : m_RollSize(rollSize),m_LastIndex(0) {    

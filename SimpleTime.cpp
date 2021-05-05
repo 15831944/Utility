@@ -15,7 +15,7 @@
 
 #include "StringTemplateUtil.h"
 
-namespace KGI_TW_Der_Utility{  
+namespace ProgLab{ namespace Utility{  
        
 SimpleTime::SimpleTime(int hour, int minute, int second):m_Hour(hour),m_Minute(minute),m_Second(second){    
 }

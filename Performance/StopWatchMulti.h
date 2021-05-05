@@ -16,7 +16,7 @@
 
 #include <chrono>
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 /// \brief 支援量測多個點的StopWatch工具
 /// 可用於當一個函式中要再細分成多個段落，並計算每個量測點跟起點或任兩點間的時間

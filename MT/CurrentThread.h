@@ -30,7 +30,7 @@
 
 
 
-namespace KGI_TW_Der_Utility{ 
+namespace ProgLab{ namespace Utility{ 
 
 namespace CurrentThread{	
 #if !defined(_CYGWIN_)

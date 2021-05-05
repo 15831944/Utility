@@ -15,7 +15,7 @@
 #include <stdio.h>
 #include "../Log/ILogger.h"
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
     /// \brief 配合 LogSystem ，讓AbstractFilePersistence 可以支援 LogSystem 的wrapper類別
     /// 將產生好的 AbstractFilePersistence 指標交給 GeneralLogger 來保管，當GeneralLogger結束時，會自動呼叫 AbstractFilePersistence::Close() 函式

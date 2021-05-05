@@ -26,7 +26,7 @@
 #include <memory>
 #include <thread>
 
-namespace KGI_TW_Der_Utility{   
+namespace ProgLab{ namespace Utility{   
 
 typedef FileLogger _BaseFileLogType_;
 

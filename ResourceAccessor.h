@@ -10,7 +10,7 @@
 
 #include <mutex>
 
-namespace KGI_TW_Der_Utility{   
+namespace ProgLab{ namespace Utility{   
     
 template<typename TResource >
 class ResourceAccessor{

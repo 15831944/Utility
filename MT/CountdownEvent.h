@@ -12,7 +12,7 @@
 #include <mutex>
 #include "ManualResetEvent.h"
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 class CountdownEvent {
 public:

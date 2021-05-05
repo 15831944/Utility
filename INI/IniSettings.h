@@ -15,7 +15,7 @@
 
 #include "IniFile.h"
 
-namespace KGI_TW_Der_Utility{   
+namespace ProgLab{ namespace Utility{   
 
 class IniSettings {
 public:

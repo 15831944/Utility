@@ -10,7 +10,7 @@
 #include <stack>
 #include <assert.h>
 
-namespace KGI_TW_Der_Utility{ 
+namespace ProgLab{ namespace Utility{ 
 
 void BracesStructure::Parse( const std::string& opaqueData ){    
         

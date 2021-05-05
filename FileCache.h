@@ -14,7 +14,7 @@
 #include <fstream>
 #include "SwitchBuffer.h"
 
-namespace KGI_TW_Der_Utility{      
+namespace ProgLab{ namespace Utility{      
 
 /// \brief Use another thread to save data into file
 class FileCache : public DataDispatcher<char *>::DataDispatcherReceiver {

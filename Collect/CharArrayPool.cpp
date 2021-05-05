@@ -8,7 +8,7 @@
 #include "CharArrayPool.h"
 #include <memory.h>
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
     
 CharArrayPool::CharArrayPool(int count, int lengthPerItem):m_Count(count),m_LengthPerItem(lengthPerItem){
     m_pPool = new char[ m_Count * m_LengthPerItem ];

@@ -8,7 +8,7 @@
 #ifndef UTILITY_LOGMESSAGE_H
 #define	UTILITY_LOGMESSAGE_H
 
-namespace KGI_TW_Der_Utility{      
+namespace ProgLab{ namespace Utility{      
 
 /// Tool for manage the string buffer of log
 ///    

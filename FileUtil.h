@@ -16,7 +16,7 @@
 
 #include <string>
 
-namespace KGI_TW_Der_Utility{ 
+namespace ProgLab{ namespace Utility{ 
 
 /// \brief 收集一些有關檔案操作的工具類別
 class FileUtil {

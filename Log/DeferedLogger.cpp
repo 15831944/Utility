@@ -19,7 +19,7 @@
 #include "../StringTemplateUtil.h"
 #include "../StringUtil.h"
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 DeferedLogger::DeferedLogger() {
     std::thread tWriteLog( std::bind( &DeferedLogger::DeferedWriteLogThread, this) );

@@ -13,7 +13,7 @@
 
 #include "ExecuteResult.h"
 
-namespace KGI_TW_Der_Utility{ 
+namespace ProgLab{ namespace Utility{ 
 
 ExecuteResult::ExecuteResult(bool result, const std::string& resultMsg ):Result_(result),ResultMessage_(resultMsg) {
 }

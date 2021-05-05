@@ -21,7 +21,7 @@
 #define UTILITY_VER_MAJOR      11
 #define UTILITY_VER_MINER      4
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 /// \brief 取得 Utility 版本資訊
 class UtilityVersion {

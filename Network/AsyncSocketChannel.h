@@ -11,7 +11,7 @@
 #include "SocketChannel.h"
 #include "../Collect/BlockingQueue.h"
 
-namespace KGI_TW_Der_Utility{  
+namespace ProgLab{ namespace Utility{  
 
 class AsyncSocketChannel : public SocketChannel{
     struct SendData{

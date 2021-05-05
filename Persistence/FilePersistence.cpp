@@ -8,7 +8,7 @@
 #include "FilePersistence.h"
 #include <stdio.h>
 
-namespace KGI_TW_Der_Utility{ 
+namespace ProgLab{ namespace Utility{ 
 
 FilePersistence::FilePersistence() : m_FileID(NULL) {
 }

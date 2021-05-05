@@ -10,7 +10,7 @@
 
 #include <chrono>
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 /// \brief 使用STL裏通用的時間函式庫Chrono來計算執行時間
 /// 目前是用std::chrono::high_resolution_clock型別

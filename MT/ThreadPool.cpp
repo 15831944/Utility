@@ -7,7 +7,7 @@
 
 #include "ThreadPool.h"
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 // the constructor just launches some amount of workers
 ThreadPool::ThreadPool(size_t threads)

@@ -20,7 +20,7 @@
 
 #include "DateTime.h"
 
-namespace KGI_TW_Der_Utility{  
+namespace ProgLab{ namespace Utility{  
 
 /// \brief 簡單的時間處理類別
 class SimpleTime{

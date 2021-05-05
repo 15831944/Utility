@@ -14,7 +14,7 @@
 #include <vector>
 #include <deque>
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 // ref from http://progsch.net/wordpress/?p=81
  

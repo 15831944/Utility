@@ -14,7 +14,7 @@
 #include <mutex>
 #include "ManualResetEvent.h"
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 /// \brief 將每個bit視為一個資源，當所有資源都完成(每個bit都設為0)時，就會觸發
 class BitCountdownEvent {

@@ -8,7 +8,7 @@
 #ifndef UTILITY_DAEMONUTIL_H
 #define	UTILITY_DAEMONUTIL_H
 
-namespace KGI_TW_Der_Utility{  
+namespace ProgLab{ namespace Utility{  
 
 /// \brief 讓程式以Daemon方式執行的工具類別
 class DaemonUtil {

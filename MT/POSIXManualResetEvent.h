@@ -12,7 +12,7 @@
 
 #include <pthread.h>
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 /// \brief 使用POSIX的方式實作的MaunalResetEvent
 /// 這種方式比較沒有可移植性，在windows系統下無法使用    

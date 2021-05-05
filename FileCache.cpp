@@ -12,7 +12,7 @@
 #include <functional>
 #include "MovingBuffer.h"
 
-namespace KGI_TW_Der_Utility{   
+namespace ProgLab{ namespace Utility{   
 
 FileCache::FileCache() {
     m_FileID = NULL;

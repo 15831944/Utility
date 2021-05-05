@@ -21,7 +21,7 @@
 #include <mutex>
 #include "../MT/DataDispatcher.h"
 
-namespace KGI_TW_Der_Utility{   
+namespace ProgLab{ namespace Utility{   
 
 typedef FileLogger _BaseFileLogType_;
 

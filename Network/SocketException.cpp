@@ -7,7 +7,7 @@
 
 #include "SocketException.h"
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 SocketException::SocketException(const char *pMsg ){ 
     if( pMsg != NULL )

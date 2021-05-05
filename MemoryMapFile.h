@@ -18,7 +18,7 @@
 #include <fcntl.h>
 #include <mutex>
 
-namespace KGI_TW_Der_Utility{ 
+namespace ProgLab{ namespace Utility{ 
 
 #ifdef _OS_LINUX_
 /// \brief 建立或開啟一份指定名稱的檔案，並建立MemoryMap模式來進行存取

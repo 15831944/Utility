@@ -28,7 +28,7 @@
 #include "FileUtil.h"
 #include "MMapSeqGenerator.h"
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 MMapSeqGenerator::MMapSeqGenerator( const std::string& file, unsigned long initValue ) : FileID_(-1){
 

@@ -13,7 +13,7 @@
 
 #include "UtilityVersion.h"
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
     
 std::string UtilityVersion::BuildDate_(__DATE__);
 std::string UtilityVersion::BuildTime_(__TIME__);

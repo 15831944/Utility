@@ -13,7 +13,7 @@
 #include <functional>
 #include <string>
 
-namespace KGI_TW_Der_Utility{ 
+namespace ProgLab{ namespace Utility{ 
 
 /// \brief 配合 AbstractFilePersistence 讀取一行行的資料
 /// 斷行字元預設為 \r\n

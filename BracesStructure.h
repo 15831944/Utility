@@ -13,7 +13,7 @@
 #include <string>
 #include <mutex>
 
-namespace KGI_TW_Der_Utility{  
+namespace ProgLab{ namespace Utility{  
 
 class BSValue{
 public:

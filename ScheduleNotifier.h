@@ -22,7 +22,7 @@
 #include "MT/ManualResetEvent.h"
 #include "SimpleTime.h"
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 template<typename TData>
 class ScheduleNotifier {

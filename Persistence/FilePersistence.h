@@ -12,7 +12,7 @@
 #ifndef UTILITY_FILEPERSISTENCE_H
 #define	UTILITY_FILEPERSISTENCE_H
 
-namespace KGI_TW_Der_Utility{ 
+namespace ProgLab{ namespace Utility{ 
 
     /// \brief 一般檔案型式的Persistence類別
     /// 使用的是基本的C的檔案函式庫

@@ -17,7 +17,7 @@
 #include "ILogger.h"
 #include "../Collect/BlockingQueue.h"
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 /// \brief 延後產生要寫入Log內的Log訊息的類別
 /// 配合 ILogData 來使用，使用端可以自行繼承自 ILogData 並產生相關要寫入 Log 的資料物件，並透過 DeferedLogger::WriteLog 來寫入

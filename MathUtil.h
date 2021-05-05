@@ -17,7 +17,7 @@
 #include <cmath>
 #include <cfloat>
 
-namespace KGI_TW_Der_Utility{ 
+namespace ProgLab{ namespace Utility{ 
 
 /// \brief 數學運算函式庫
 ///

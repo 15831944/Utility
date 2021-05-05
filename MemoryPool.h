@@ -32,7 +32,7 @@
 
 #include <memory>
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 class MemoryPool {
 public:

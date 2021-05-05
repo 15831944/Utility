@@ -13,7 +13,7 @@
 
 #include "MathUtil.h"
 
-namespace KGI_TW_Der_Utility{ 
+namespace ProgLab{ namespace Utility{ 
 
 MathUtil::MathUtil() {
 }

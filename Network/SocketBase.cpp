@@ -29,7 +29,7 @@
 #include <stdexcept>
 #include <thread>
 
-namespace KGI_TW_Der_Utility{ 
+namespace ProgLab{ namespace Utility{ 
 
 	SocketLib SocketBase::m_SocketLib;
  

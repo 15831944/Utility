@@ -13,7 +13,7 @@
 #include <unistd.h>
 #endif
 
-namespace KGI_TW_Der_Utility{ 
+namespace ProgLab{ namespace Utility{ 
 
 #ifdef _OS_LINUX_
 

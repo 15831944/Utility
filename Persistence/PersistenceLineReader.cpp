@@ -9,7 +9,7 @@
 
 #include <memory.h>
 
-namespace KGI_TW_Der_Utility{ 
+namespace ProgLab{ namespace Utility{ 
 
 PersistenceLineReader::PersistenceLineReader() {
 }

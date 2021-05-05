@@ -13,7 +13,7 @@
 
 #include "MemoryAllocator.h"
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 #if defined(_OS_LINUX_)
 // for Memory map file

@@ -9,7 +9,7 @@
 #include <functional>
 #include <string.h>
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 // GeneralLogger
 GeneralLogger::GeneralLogger( AbstractFilePersistence* pPersistenter )

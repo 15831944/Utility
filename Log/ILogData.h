@@ -16,7 +16,7 @@
 
 #include <string>
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 class ILogData {
 public:

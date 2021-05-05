@@ -10,7 +10,7 @@
 #include <thread>
 #include <memory.h>
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 AsyncSocketChannel::AsyncSocketChannel(int socketID, int maxPendingData) : SocketChannel(socketID),m_MaxPendingData(maxPendingData) {
     std::thread tSendData( &AsyncSocketChannel::AsyncSendData, this );

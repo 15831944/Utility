@@ -17,7 +17,7 @@
 #endif
 #include <sstream>
 
-namespace KGI_TW_Der_Utility{ 
+namespace ProgLab{ namespace Utility{ 
 
 namespace CurrentThread{
     THREAD_LOCAL_VARIABLE const char* t_pThreadName = "unknown";

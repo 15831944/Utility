@@ -15,7 +15,7 @@
 #include <memory>
 #include <thread>
 
-namespace KGI_TW_Der_Utility{   
+namespace ProgLab{ namespace Utility{   
 
 class AsyncFileLogger : public AsyncRollFileLogger {    
 public:

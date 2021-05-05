@@ -18,7 +18,7 @@
 #include "Collect/BlockingQueue.h"
 #include "MT/ManualResetEvent.h"
 
-namespace KGI_TW_Der_Utility{
+namespace ProgLab{ namespace Utility{
 
 #ifdef _SWITCHBUFFER_EX_
 /// 使用多個Buffer接收資料，當Buffer滿了時，就會切換，並通知外部人員Buffer滿的事件，以便讓外部人員可處理已填滿的Buffer
